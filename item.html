@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<div id="links">
+    <a href="Index.html">На главную</a>
+    <br>
+    <a href="Items.html">Прикупить запчастей</a>
+    <br>
+</div>
+
+<head>
+    <title>Заказ чуда</title>
+</head>
+
+<body>
+    <form action="Create" method="post">
+        <label>Название:</label><br>
+        <input type="text" name="name" placeholder="Рычаг тормоза ножной"><br>
+        <label>Производитель:</label><br>
+        <input type="text" name="producer" placeholder="JAWA"><br>
+        <label>Материал:</label><br>
+        <input type="text" name="material" placeholder="Металл"><br>
+        <label>Ожидаемая цена в BYN:</label><br>
+        <input type="number" required name="price" min="0" value="0" step="0.01" placeholder="0.00"><br>
+        <input type="submit" value="Заказать">
+    </form>
+</body>
+
+</html>

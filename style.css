@@ -1,0 +1,36 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #EEEEEE }
+img {
+  height: "800px";
+  width: "800px";
+}
+div {
+  float: left;
+}
+table, th, td {
+  border: 1px solid black;
+}
+#image {
+  height: "800px"; 
+  width: "800px"; 
+/*   max-width: 400px; */
+/*   max-height: 800px; */
+/*   display:block; */
+/*   overflow:scroll; */
+  }
+#text {
+  width: 800px; 
+  max-width: 800px;
+  padding: 10px;
+  margin: 10px;
+/*   max-height: 800px; */
+/*   display:block; */
+/*   overflow:scroll; */
+  }
+#list { width: 500px;
+  
+}
+#links { width: 300px;
+  
+}

@@ -1,0 +1,19 @@
+table {
+    width:100%;
+}
+tr#Rectangle1{
+    height:40px;
+    background-color: orange;    
+}
+tr#Rectangle2{
+    height:120px;
+    background-color: yellowgreen;    
+}
+tr#Rectangle3{
+    height:80px;
+    background-color: blue;    
+}
+tr#Rectangle4{
+    height:60px;
+    background-color: grey;    
+}
